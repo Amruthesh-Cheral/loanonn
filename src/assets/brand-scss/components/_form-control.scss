@@ -1,0 +1,48 @@
+.brand-form-control {
+  position: relative;
+  border-radius: 5px;
+
+  &__label {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    transform: translateY(-50%);
+    margin: $spacer-0;
+    background-color: $brand-color-white;
+    width: fit-content;
+    padding: 2px 14px 2px $spacer-2 !important;
+    display: flex;
+    align-items: flex-start;
+    z-index: 1;
+    color: $brand-color-primary-medium;
+    font-size: 0.875rem;
+    font-weight: 400;
+    white-space: nowrap;
+
+    span {
+      display: flex;
+      margin: $spacer-1;
+    }
+  }
+
+  textarea {
+    width: 100% !important;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    border: 1px solid $brand-color-hash-100;
+    color: $brand-color-hash-900;
+    border-radius: 5px;
+    padding: $spacer-3;
+    font-weight: 600;
+
+    &::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: $brand-color-hash-200;
+      opacity: 1; /* Firefox */
+      font-weight: 400;
+    }
+  }
+}

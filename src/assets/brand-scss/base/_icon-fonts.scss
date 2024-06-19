@@ -1,0 +1,337 @@
+@font-face {
+  font-family: icomoon;
+  src: url("/icon-fonts/icomoon.eot");
+  src: url("/icon-fonts/icomoon.eot?pbxxgu");
+  src:
+    url("/icon-fonts/icomoon.eot?pbxxgu#iefix")
+    format("embedded-opentype"),
+    url("/icon-fonts/icomoon.ttf?pbxxgu") format("truetype"),
+    url("/icon-fonts/icomoon.woff?pbxxgu") format("woff"),
+    url("/icon-fonts/icomoon.svg?pbxxgu#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="brand-icon-"],
+[class*=" brand-icon-"] {
+  font-family: icomoon !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.brand-icon {
+  &-call {
+    &::content {
+      content: "\e91e";
+    }
+  }
+
+  &-location {
+    &::content {
+      content: "\e92f";
+    }
+  }
+
+  &-mail {
+    &::content {
+      content: "\e932";
+    }
+  }
+
+  &-active-file {
+    &::content {
+      content: "\e931";
+    }
+  }
+
+  &-file-request {
+    &::content {
+      content: "\e930";
+    }
+  }
+
+  &-icon_add {
+    &::before {
+      content: "\e92f";
+    }
+  }
+
+  &-Bookmark {
+    &::before {
+      content: "\e91f";
+    }
+  }
+
+  &-Calender {
+    &::before {
+      content: "\e920";
+    }
+  }
+
+  &-Clip {
+    &::before {
+      content: "\e921";
+    }
+  }
+
+  &-Delete-fill {
+    &::before {
+      content: "\e922";
+    }
+  }
+
+  &-Delete-outline {
+    &::before {
+      content: "\e923";
+    }
+  }
+
+  &-Documnt-error {
+    &::before {
+      content: "\e924";
+    }
+  }
+
+  &-Download {
+    &::before {
+      content: "\e925";
+    }
+  }
+
+  &-Edit {
+    &::before {
+      content: "\e926";
+    }
+  }
+
+  &-file-backward {
+    &::before {
+      content: "\e927";
+    }
+  }
+
+  &-file-tick {
+    &::before {
+      content: "\e928";
+    }
+  }
+
+  &-Fplder {
+    &::before {
+      content: "\e929";
+    }
+  }
+
+  &-left-arrow {
+    &::before {
+      content: "\e92a";
+    }
+  }
+
+  &-open-link-in-window {
+    &::before {
+      content: "\e92b";
+    }
+  }
+
+  &-Reset {
+    &::before {
+      content: "\e92c";
+    }
+  }
+
+  &-right-arrow {
+    &::before {
+      content: "\e92d";
+    }
+  }
+
+  &-Table {
+    &::before {
+      content: "\e92e";
+    }
+  }
+
+  &-delete_2 {
+    &::before {
+      content: "\e900";
+    }
+  }
+
+  &-document {
+    &::before {
+      content: "\e901";
+    }
+  }
+
+  &-document_white {
+    &::before {
+      content: "\e902";
+    }
+  }
+
+  &-down_arrow {
+    &::before {
+      content: "\e903";
+    }
+  }
+
+  &-duplicate {
+    &::before {
+      content: "\e904";
+    }
+  }
+
+  &-end_date {
+    &::before {
+      content: "\e905";
+    }
+  }
+
+  &-menu_default {
+    &::before {
+      content: "\e906";
+    }
+  }
+
+  &-menu_select {
+    &::before {
+      content: "\e907";
+    }
+  }
+
+  &-notification {
+    &::before {
+      content: "\e908";
+    }
+  }
+
+  &-pending {
+    &::before {
+      content: "\e909";
+    }
+  }
+
+  &-presenting {
+    &::before {
+      content: "\e90a";
+    }
+  }
+
+  &-Project-Name {
+    &::before {
+      content: "\e90b";
+    }
+  }
+
+  &-rejected {
+    &::before {
+      content: "\e90d";
+    }
+  }
+
+  &-requested-date {
+    &::before {
+      content: "\e90e";
+    }
+  }
+
+  &-Search {
+    &::before {
+      content: "\e90f";
+    }
+  }
+
+  &-settings {
+    &::before {
+      content: "\e910";
+    }
+  }
+
+  &-sort {
+    &::before {
+      content: "\e911";
+    }
+  }
+
+  &-start_date {
+    &::before {
+      content: "\e912";
+    }
+  }
+
+  &-tag {
+    &::before {
+      content: "\e913";
+    }
+  }
+
+  &-up_arrow {
+    &::before {
+      content: "\e914";
+    }
+  }
+
+  &-User-Management {
+    &::before {
+      content: "\e915";
+    }
+  }
+
+  &-all {
+    &::before {
+      content: "\e916";
+    }
+  }
+
+  &-approved {
+    &::before {
+      content: "\e917";
+    }
+  }
+
+  &-back_button {
+    &::before {
+      content: "\e918";
+    }
+  }
+
+  &-calander {
+    &::before {
+      content: "\e919";
+    }
+  }
+
+  &-close {
+    &::before {
+      content: "\e91a";
+    }
+  }
+
+  &-close-1 {
+    &::before {
+      content: "\e91b";
+    }
+  }
+
+  &-create_user {
+    &::before {
+      content: "\e91c";
+    }
+  }
+
+  &-delete {
+    &::before {
+      content: "\e91d";
+    }
+  }
+}

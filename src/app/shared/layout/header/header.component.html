@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container align-items-center">
+
+      <div class="d-flex align-items-center">
+        <a class="navbar-brand" href="#"> <img src="/loanonn/loan-web-app/browser/assets/images/theme-images/loanon-logo.png" width="200" alt="logo" class="img-fluid"> </a>
+        <a href="" class="btn btn-sm btn-outline-warning"> 1000 <img src="/loanonn/loan-web-app/browser/assets/images/img/reward-icon.png" class="img-fluid" alt=""> </a>
+      </div>
+
+ 
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/loanonn/loan-web-app/browser/home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/loanonn/loan-web-app/browser/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/loanonn/loan-web-app/browser/service">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/loanonn/loan-web-app/browser/contact">Contact Us</a>
+          </li>
+        </ul>
+        
+      </div>
+
+      <div class="d-flex align-items-center">
+        <div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>    
+        </div>
+        <div class="ms-1">
+          <button class="user" mat-button [matMenuTriggerFor]="menu"> 
+            <img src="/loanonn/loan-web-app/browser/assets/images/img/user-icon.png" alt="">
+          </button>
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item>Logout</button>
+          </mat-menu>
+        </div>
+      </div>
+    </div>
+  </nav>

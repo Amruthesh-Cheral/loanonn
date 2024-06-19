@@ -1,0 +1,20 @@
+// Spacing
+
+@use "sass:math";
+
+/* Fixed Spacing Variables */
+
+$spacer-0: 0;
+$spacer-1: 4px;
+$spacer-2: 8px;
+$spacer-3: 12px;
+$spacer-4: 16px;
+$spacer-5: 20px;
+$spacer-6: 24px;
+$spacer-7: 32px;
+$spacer-8: 40px;
+
+// // Breakpoints.
+$bp-mobile: 767px;
+$bp-tablet: 1024px;
+$bp-desktop: 1280px;

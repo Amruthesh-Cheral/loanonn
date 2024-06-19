@@ -1,0 +1,47 @@
+@import "../abstracts/index.scss";
+
+.brand-checkbox[type="checkbox"] {
+  position: relative;
+  border: 2px solid $brand-color-hash-200;
+  border-radius: 2px;
+  background: none;
+  cursor: pointer;
+  line-height: 0;
+  margin: 0 0.6em 0 0;
+  outline: 0;
+  padding: 0 !important;
+  vertical-align: text-top;
+  height: 20px;
+  width: 20px;
+  background-color: $brand-color-white;
+  opacity: 0.5;
+  transition: 0, 5s;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &:checked {
+    transition: 0, 5s;
+    background-color: $brand-color-secondary;
+    opacity: 1;
+    border: 1px solid $brand-color-blue-200;
+    border-radius: 2px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    width: 6px;
+    height: 12px;
+    border: 1px solid $brand-color-hash-200;
+    border: solid $brand-color-white;
+    border-width: 0 2px 2px 0;
+    margin: -1px -1px 0;
+    transform: rotate(45deg) translate(-50%, -50%) scale(0.9);
+    transition: 0, 5s;
+    z-index: 2;
+  }
+}

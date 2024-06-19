@@ -1,0 +1,123 @@
+/* stylelint-disable custom-property-no-missing-var-function */
+:root {
+  // Primary Colors
+
+  --brand-color-primary: #333;
+  --brand-color-primary-medium: #7d7d7d;
+  --brand-color-primary-light: #80858a;
+
+  // Secondary Colors
+
+  --brand-color-secondary: #0480f2;
+
+  // Other Colors
+
+  --brand-color-black: #000;
+  --brand-color-black-800: #101010;
+  --brand-color-white: #fff;
+  --brand-color-orange: #e47c54;
+  --brand-color-orange-300: #fef2e3;
+  --brand-color-orange-600: #ff900f;
+  --brand-color-yellow: #ecc181;
+  --brand-color-red: #e53535;
+  --brand-color-red-100: #ffe4e3;
+  --brand-color-red-700: #f3616a;
+  --brand-color-green: #a1d27b;
+  --brand-color-green-100: #ebf3e2;
+  --brand-color-green-200: #e9f8e9;
+  --brand-color-green-600: #51b97a;
+  --brand-color-green-700: #1d951c;
+  --brand-color-green-800: #24ad8f;
+  --brand-color-green-900: #006729;
+  --brand-color-blue-100: #b7c6d3;
+  --brand-color-blue-150: #f7faff;
+  --brand-color-blue-200: #f4f8fc;
+  --brand-color-blue-300: #e1ebf5;
+  --brand-color-blue-400: #90a8bd;
+  --brand-color-blue-500: #e9f4ff;
+  --brand-color-blue-600: #a8d0f4;
+  --brand-color-blue-900: #4aa7fd;
+  --brand-color-blue-1000: #0b5ef8;
+
+  // Transparent
+
+  --brand-color-transparent: transparent;
+
+  // Hash Color
+
+  --brand-color-hash-100: #dfdfdf;
+  --brand-color-hash-200: #c9c9c9;
+  --brand-color-hash-300: #f1f1f1;
+  --brand-color-hash-400: #f5f5f5;
+  --brand-color-hash-500: #dfe2e5;
+  --brand-color-hash-600: #cdd5dd;
+  --brand-color-hash-700: #bbc0c5;
+  --brand-color-hash-900: #666;
+
+  // Blue
+
+  // Theme Colors for dark & light mode
+
+  --brand-pptheme-white: #fff;
+  --brand-pptheme-black: #000;
+}
+
+// Primary Colors
+$brand-color-primary: #{var(--brand-color-primary)} !default;
+$brand-color-primary-medium: #{var(--brand-color-primary-medium)} !default;
+$brand-color-primary-light: #{var(--brand-color-primary-light)};
+
+// Hash Color
+
+$brand-color-hash-100: #{var(--brand-color-hash-100)};
+$brand-color-hash-200: #{var(--brand-color-hash-200)};
+$brand-color-hash-300: #{var(--brand-color-hash-300)};
+$brand-color-hash-400: #{var(--brand-color-hash-400)};
+$brand-color-hash-400: #{var(--brand-color-hash-400)};
+$brand-color-hash-500: #{var(--brand-color-hash-500)};
+$brand-color-hash-600: #{var(--brand-color-hash-600)};
+$brand-color-hash-700: #{var(--brand-color-hash-700)};
+$brand-color-hash-900: #{var(--brand-color-hash-900)};
+
+// Secondary Colors
+
+$brand-color-secondary: #{var(--brand-color-secondary)};
+
+// Other Colors
+
+$brand-color-black-800: #{var(--brand-color-black-800)};
+$brand-color-black: #{var(--brand-color-black)};
+$brand-color-white: #{var(--brand-color-white)};
+$brand-color-orange: #{var(--brand-color-orange)};
+$brand-color-orange-300: #{var(--brand-color-orange-300)};
+$brand-color-orange-600: #{var(--brand-color-orange-600)};
+$brand-color-yellow: #{var(--brand-color-yellow)};
+$brand-color-red: #{var(--brand-color-red)};
+$brand-color-red-100: #{var(--brand-color-red-100)};
+$brand-color-red-700: #{var(--brand-color-red-700)};
+$brand-color-green: #{var(--brand-color-green)};
+$brand-color-green-100: #{var(--brand-color-green-100)};
+$brand-color-green-200: #{var(--brand-color-green-200)};
+$brand-color-green-600: #{var(--brand-color-green-600)};
+$brand-color-green-700: #{var(--brand-color-green-700)};
+$brand-color-green-800: #{var(--brand-color-green-800)};
+$brand-color-green-900: #{var(--brand-color-green-900)};
+$brand-color-secondary-medium: #{var(--brand-color-secondary-medium)};
+$brand-color-blue-100: #{var(--brand-color-blue-100)};
+$brand-color-blue-150: #{var(--brand-color-blue-150)};
+$brand-color-blue-200: #{var(--brand-color-blue-200)};
+$brand-color-blue-300: #{var(--brand-color-blue-300)};
+$brand-color-blue-400: #{var(--brand-color-blue-400)};
+$brand-color-blue-500: #{var(--brand-color-blue-500)};
+$brand-color-blue-600: #{var(--brand-color-blue-600)};
+$brand-color-blue-900: #{var(--brand-color-blue-900)};
+$brand-color-blue-1000: #{var(--brand-color-blue-1000)};
+
+// Transparent
+
+$brand-color-transparent: #{var(--transparent)};
+
+// Theme Colors for dark & light mode
+
+$brand-pptheme-white: #{var(--brand-pptheme-white)};
+$brand-pptheme-black: #{var(--brand-pptheme-black)};

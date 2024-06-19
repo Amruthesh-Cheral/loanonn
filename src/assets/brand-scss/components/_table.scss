@@ -1,0 +1,203 @@
+// @import "./src/assets/brand-scss/abstracts/variables";
+
+// // TABLE COMMON
+
+// .brand-table {
+//   min-height: 200px;
+//   padding: $spacer-0 $spacer-5;
+//   overflow-x: auto;
+
+//   &__wrapper {
+//     border-collapse: collapse;
+//     width: 100%;
+//     clear: both;
+//   }
+
+//   &__head-main {
+//     vertical-align: bottom;
+//     border-style: solid;
+//     border-width: 0;
+//     color: $brand-color-primary-medium;
+//   }
+
+//   &__body {
+//     margin-block-start: 6px;
+//     margin-block-end: 6px;
+//     max-width: none;
+//   }
+
+//   &__head {
+//     vertical-align: bottom;
+//     border-bottom: 1px solid $brand-color-hash-100;
+//     text-align: left;
+//     white-space: nowrap;
+//     max-width: 187px;
+//     padding: $spacer-5 $spacer-5;
+//   }
+
+//   &__td-item {
+//     padding: $spacer-4 $spacer-5;
+//     border-bottom-width: 1px;
+//     white-space: nowrap;
+//     overflow: hidden;
+//     text-overflow: ellipsis;
+//     max-width: 187px;
+//   }
+
+//   &__item-inner {
+//     display: flex;
+//     align-items: center;
+//     justify-content: flex-start;
+//   }
+// }
+
+// // TABLE COMMON
+
+// // AROUND FULL TABLE BODY
+// .brand-around-table {
+//   border: 1px solid $brand-color-hash-100;
+//   padding: $spacer-0;
+//   border-radius: 10px;
+// }
+
+// // AROUND FULL TABLE BODY
+
+// // TABLE ICON LABEL
+// .brand-icon-label {
+//   display: flex;
+//   align-items: center;
+//   gap: 5px;
+
+//   &__icon {
+//     em {
+//       color: $brand-color-secondary;
+//       font-size: 23px;
+//     }
+//   }
+// }
+
+// // TABLE ICON LABEL
+
+// // TABLE LINK LABEL
+
+// .brand-link-label {
+//   color: $brand-color-secondary;
+//   font-weight: $font-weight-medium;
+//   cursor: pointer;
+//   font-size: $font-md;
+// }
+
+// // TABLE LINK LABEL
+
+// // TABLE BADGE
+// .brand-table-badge {
+//   &__item {
+//     padding: 5px 20px;
+//     border-radius: 24px;
+//     width: 117px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//   }
+
+//   .pending {
+//     background-color: $brand-color-orange-300;
+//     color: $brand-color-orange-600;
+//   }
+
+//   .completed {
+//     background-color: $brand-color-green-200;
+//     color: $brand-color-green-700;
+//   }
+
+//   .rejected {
+//     background-color: $brand-color-red-100;
+//     color: $brand-color-red;
+//   }
+
+//   .hold {
+//     background-color: $brand-color-blue-500;
+//     color: $brand-color-blue-1000;
+//   }
+// }
+
+// // TABLE BADGE
+
+// // TABLE DATA NOT FOUND
+
+// .brand-data-not-found {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   flex-direction: column;
+//   gap: 3px;
+
+//   &__image {
+//     width: fit-content;
+//     margin: 0 auto;
+//   }
+
+//   &__content {
+//     color: $brand-color-primary;
+//     font-size: $font-ml;
+//     font-weight: 600;
+//   }
+
+//   &__sub-content {
+//     color: #828282;
+//     font-size: $font-sm;
+//   }
+// }
+
+// // TABLE DATA NOT FOUND
+
+// // ACTION MAT MENU
+
+// ::ng-deep .brand-table-wrap-action {
+//   &__icon {
+//     background: $brand-color-blue-200;
+//     width: 35px;
+//     height: 35px;
+//     padding: 4px;
+//     margin: 3px;
+//     border-radius: 50%;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     position: relative;
+//     font-size: 15px;
+//     color: $brand-color-secondary;
+//   }
+
+//   &__menu {
+//     min-width: fit-content !important;
+//     max-width: fit-content !important;
+//     border-radius: 10px !important;
+
+//     .menu-item {
+//       padding: 10px !important;
+//       cursor: pointer;
+//       color: $brand-color-primary-light;
+//       border-bottom: 1px solid $brand-color-hash-300;
+
+//       &:hover {
+//         background-color: $brand-color-blue-200;
+//         color: $brand-color-primary;
+//       }
+
+//       &:active {
+//         background-color: $brand-color-blue-300;
+//       }
+
+//       em {
+//         color: $brand-color-secondary;
+//       }
+//     }
+
+//     .mat-mdc-menu-content {
+//       padding: 0 !important;
+//     }
+//   }
+// }
+
+// // ACTION MAT MENU

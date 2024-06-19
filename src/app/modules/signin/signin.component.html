@@ -1,0 +1,26 @@
+<div class="login-body">
+    <div class="container active" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1 class="text-secondary">Create Account</h1>
+              
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button [routerLink]="['login']">Sign Up</button>
+   
+            </form>
+        </div>
+       
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your personal details to use all of site features</p>
+                    <button class="hidden" routerLinkActive="active" [routerLink]="['/login']">Sign In</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

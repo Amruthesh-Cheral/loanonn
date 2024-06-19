@@ -1,0 +1,63 @@
+// // Components
+@import "./modal";
+@import "./form-control";
+@import "./cards";
+@import "./buttons";
+@import "./checkbox";
+@import "./table";
+@import "./search";
+
+
+/*** Start Of blog Section ***/
+.saasio-breadcurmb-section {
+  padding: 60px 0px 60px;
+  background-image: url(/images/img/page-header.jpeg);
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.saasio-breadcurmb-section::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: RGBA(var(--easilon-black-rgb, 43, 43, 94), 0.8);
+}
+  .breadcurmb-title h2 {
+    margin: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: 'Poppins';
+    padding-bottom: 20px;
+  }
+
+.saasio-page-breadcurmb li a  {
+    color: #fff;
+    margin: 0px 10px;
+    position: relative;
+  }
+  .saasio-page-breadcurmb li a:after {
+   top: 0px;
+   right: -16px;
+   content: '\f054';
+   font-weight: 900;
+   font-size: 12px;
+   position: absolute;
+   font-family: 'Font Awesome 5 Free';
+  }
+  .saasio-page-breadcurmb li:last-child a::after {
+    display: none;
+  }
+
+  .brand_logo a img {
+    width: 140px;
+  } 

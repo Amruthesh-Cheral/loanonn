@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./assets/brand-scss/style.scss";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  // font-family: $default-font-family !important;
+    // background: #050813;
+
+}
+
+h1{
+  color:  #ffffff;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.color-blue {
+  color: #214598 !important;
+}

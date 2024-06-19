@@ -1,0 +1,291 @@
+// html, body { height: 100%; }
+// body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* stylelint-disable selector-class-pattern */
+/* stylelint-disable selector-max-type */
+html {
+  // font-family: $default-font-family;
+  width: 100%;
+  min-height: 100%;
+  /* stylelint-disable-next-line font-plugin/font-check */
+
+  // @include hide-scroll;
+}
+
+body {
+  color: $brand-color-primary;
+  // font-family: $default-font-family;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+button,
+input {
+  // font-family: $default-font-family;
+}
+
+a,
+button,
+input {
+  outline: none;
+}
+
+input,
+textarea input::placeholder,
+textarea::placeholder {
+  // font-family: $default-font-family;
+}
+
+// Word break for longer words even without space
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+label {
+  word-break: break-word;
+}
+
+a {
+  color: $brand-color-primary;
+  text-decoration: none;
+
+  &:hover {
+    color: $brand-color-primary;
+    text-decoration: none;
+  }
+}
+
+.cover,
+.background {
+  position: relative;
+  overflow: hidden;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.hide {
+  display: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $brand-color-white;
+}
+
+// BODY
+.brand-module {
+  padding: 20px;
+
+  &--multi {
+    padding: 0;
+    padding-left: 20px;
+    display: flex;
+    gap: 20px;
+  }
+
+  &__multi-left {
+    width: 100%;
+    max-width: 70%;
+  }
+
+  &__multi-right {
+    width: 100%;
+    max-width: 30%;
+  }
+
+  &__right-body {
+    background-color: $brand-color-blue-200;
+    padding: 20px;
+    height: calc(100vh - 70px);
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  &__btn-items {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+}
+
+.line {
+  position: relative;
+  height: 2px;
+  width: 106%;
+  background-color: $brand-color-hash-400;
+  left: -21px;
+}
+
+// BODY
+
+// COMMON HEADING
+.brand-title {
+  &__semi-bold {
+    color: $brand-color-primary;
+    font-weight: $font-weight-semi;
+    font-size: $font-md;
+    white-space: nowrap;
+  }
+
+  &__thin {
+    color: $brand-color-primary-medium;
+    font-size: $font-sm;
+    font-weight: $font-weight-normal;
+    white-space: nowrap;
+  }
+
+  &__heading-title {
+    white-space: nowrap;
+    font-size: $font-lg;
+    color: $brand-color-primary;
+    font-weight: $font-weight-semi;
+    letter-spacing: 0;
+  }
+
+  &__md-label {
+    color: $brand-color-primary-light;
+    font-size: $font-md;
+  }
+
+  &__sm-label {
+    color: $brand-color-primary;
+    font-size: $font-sm;
+  }
+}
+
+// RMP HOVER SCROLL BOX
+
+.brand-scroll-box {
+  overflow-y: auto;
+  padding-right: 10px;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #acacac;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #0003;
+    border-radius: 10px;
+  }
+}
+
+// RMP HOVER SCROLL BOX
+
+.brand-card {
+  background-color: $brand-color-white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  border: inherit !important;
+  background-clip: border-box;
+  border-radius: 7px;
+
+  &__body {
+    flex: 1 1 auto;
+    padding: $spacer-5;
+    margin: 0;
+    position: relative;
+  }
+}
+
+.brand-ppperson {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  border-radius: 50%;
+  border: 1px solid #dfe2e5;
+
+  .person {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  em {
+    position: absolute;
+    bottom: -1px;
+    right: -8px;
+    font-size: $font-lg;
+  }
+
+  .brand-icon-approved {
+    color: $brand-color-green-600;
+    background-color: $brand-color-white;
+    border-radius: 50%;
+  }
+}
+
+@include tablet {
+  .brand-module {
+    padding: 20px;
+
+    &--multi {
+      flex-direction: column;
+    }
+
+    &__multi-left {
+      max-width: 100%;
+    }
+
+    &__multi-right {
+      max-width: 100%;
+    }
+  }
+}
+
+@include mobile {
+  .d-mobile-none {
+    display: none;
+  }
+
+  .brand-title {
+    &__heading-title {
+      font-size: $font-md;
+    }
+  }
+
+  .brand-module {
+    &--multi {
+      padding: 20px;
+      flex-direction: column;
+    }
+
+    &__multi-left {
+      max-width: 100%;
+    }
+
+    &__multi-right {
+      max-width: 100%;
+    }
+  }
+}

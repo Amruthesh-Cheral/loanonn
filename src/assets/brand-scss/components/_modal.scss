@@ -1,0 +1,39 @@
+.brand-modal {
+  &__header {
+    padding: $spacer-6 $spacer-6 $spacer-0 $spacer-6;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: calc(100% - 50px);
+      height: 1px;
+      background-color: $brand-color-hash-200;
+      bottom: 1px;
+    }
+  }
+
+  &__close {
+    position: absolute;
+    right: $spacer-5;
+    top: $spacer-4;
+    cursor: pointer;
+  }
+
+  &__title {
+    border-bottom: 3px solid $brand-color-secondary;
+    font-size: $font-ml;
+    width: fit-content;
+    font-weight: $font-weight-semi;
+    padding-bottom: $spacer-5;
+    color: $brand-color-secondary;
+    position: relative;
+  }
+
+  &__footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: $spacer-0 $spacer-6 $spacer-6 $spacer-6;
+  }
+}

@@ -1,0 +1,44 @@
+@media (max-width: 299.98px) {
+    .card-div {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 300px) and (max-width: 767.98px) {
+    .card-div {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+  }
+  .bg-peacock {
+    background-color: #27bec6;
+    border-radius: 22px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+    height: 100%;
+    img {
+      height: 100px;
+      object-fit: contain;
+    }
+    &:active {
+      transform: scale(0.9);
+    }
+    p {
+      font-weight: 600;
+      font-size: 18px;
+      color: #fff;
+    }
+  }
+  .carousel-item {
+    height: 400px;
+    object-fit: fill;
+  }
+  @media (min-width: 290px) and (max-width: 767.98px) {
+    .carousel-item {
+      height: fit-content;
+      object-fit: fill;
+    }
+  }
+  
